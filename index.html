@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>calcul empreinte carbon</title>
+  <link rel="stylesheet" href="style.css">
 </head>
  
 <body> 
   
   <h1> CALCULER VOTRE EMPREINTE ENVIRONNEMENTAL NUMERIQUE </h1>
   
- <H2> TELEPHONE </H2>
+<div class="block">
+  <H2> TELEPHONE </H2>
    
   <BR> <label for="tps_téléphone">temps passé sur votre téléphone par jour (en heure): </label>
 <input
@@ -51,8 +53,11 @@
   name="go_utilisé_tel"
   required
   size="10" /> 
+</div>
 
 
+
+<div class="block">
 <H2> ORDINATEUR </H2>
   
  <BR> <label for="tps_ordinateur">temps passé sur votre ordinateur par jour (en heure): </label>
@@ -96,8 +101,9 @@
   name="go_utilisé_ordi"
   required
   size="10" /> 
+</div>
 
-
+  <div class="block">
   <H2>TABLETTES </H2>
     
   <BR> <label for="tps_tablette">temps passé sur votre tablette par jour (en heure): </label>
@@ -143,6 +149,7 @@
   name="go_utilisé_tablette"
   required
   size="10" /> 
+  </div>
 
 
 <br> <button onclick="traiterValeur()">Calculer</button>
