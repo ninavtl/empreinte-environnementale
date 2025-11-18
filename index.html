@@ -3,17 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>calcul empreinte carbon</title>
+  <script src="script.js"></script>
 </head>
   
 <body> 
   
   <h1> CALCULER VOTRE EMPREINTE ENVIRONNEMENTAL NUMERIQUE </h1>
-
-  <label for="tps_téléphone">temps passé sur votre téléphone (en heure): </label>
+  
+   <label for="tps_téléphone">temps passé sur votre téléphone par jour (en heure): </label>
 
 <input
   type="number"
   id="tps_téléphone"
+  name="name"
+  required
+  minlength="1"
+  maxlength="8"
+  size="10" />
+
+  <label for="tps_ordinateur">temps passé sur votre ordinateur par jour (en heure): </label>
+
+<input
+  type="number"
+  id="tps_ordinateur"
+  name="name"
+  required
+  minlength="1"
+  maxlength="8"
+  size="10" />
+
+   <label for="tps_tablette">temps passé sur votre tablette par jour (en heure): </label>
+
+<input
+  type="number"
+  id="tps_tablette"
+  name="name"
+  required
+  minlength="1"
+  maxlength="8"
+  size="10" />
+
+
+    <label for="tps_tablette">temps passé sur votre tablette par jour (en heure): </label>
+  
+  <input
+  type="number"
+  id="tps_tablette"
   name="name"
   required
   minlength="1"
