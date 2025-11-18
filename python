@@ -1,1 +1,6 @@
 main.py
+
+tps_réseaux = int ( input ( ' temps passé sur les réseaux sociaux en heure')
+
+Heures d’utilisation × puissance (W) × 365 ÷ 1000 = kWh/an
+kWh/an × facteur CO₂ du pays = CO₂/an
