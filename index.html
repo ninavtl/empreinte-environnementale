@@ -21,6 +21,45 @@
   maxlength="8"
   size="10" />
 
+  <h2>type de réseaux utilisé principalement :</h2>
+    <label>
+        <input type="checkbox" id="4G" name="4G">
+        4G
+    </label><br>
+    <label>
+        <input type="checkbox" id="5G" name="5G">
+        5G
+    </label><br>
+    <label>
+        <input type="checkbox" id="fibre" name="fibre">
+        fibre
+      </label><br>
+        <label>
+        <input type="checkbox" id="ADSL" name="ADSL">
+        ADSL
+    </label>
+
+  <label for="stockage_cloud_tel">stockage cloud utilisé (en Go) : </label>
+
+<input
+  type="number"
+  id="stockage_cloud_tel"
+  name="stockage_cloud_tel"
+  required
+  size="10" /> 
+  
+  <label for="duré_vie_tel"> durée de vie moyenne de vos téléphones : </label>
+
+<input
+  type="number"
+  id="duré_vie_tel"
+  name="duré_vie_tel"
+  required
+  size="10" />
+
+
+  
+
   <label for="tps_ordinateur">temps passé sur votre ordinateur par jour (en heure): </label>
 
 <input
@@ -32,28 +71,95 @@
   maxlength="8"
   size="10" />
 
+  <h2>type de réseaux utilisé principalement :</h2>
+    <label>
+        <input type="checkbox" id="4G" name="4G">
+        4G
+    </label><br>
+    <label>
+        <input type="checkbox" id="5G" name="5G">
+        5G
+    </label><br>
+    <label>
+        <input type="checkbox" id="fibre" name="fibre">
+        fibre
+      </label><br>
+        <label>
+        <input type="checkbox" id="ADSL" name="ADSL">
+        ADSL
+    </label>
+
+  <label for="stockage_cloud_ordi">stockage cloud utilisé (en Go) : </label>
+
+<input
+  type="number"
+  id="stockage_cloud_ordi"
+  name="stockage_cloud_ordi"
+  required
+  size="10" />
+
+  <label for="duré_vie_ordi"> durée de vie moyenne de vos ordinateurs : </label>
+
+<input
+  type="number"
+  id="duré_vie_ordi"
+  name="duré_vie_ordi"
+  required
+  size="10" />
+
+
    <label for="tps_tablette">temps passé sur votre tablette par jour (en heure): </label>
 
 <input
   type="number"
   id="tps_tablette"
-  name="name"
+  name="tps_tablette"
   required
   minlength="1"
   maxlength="8"
   size="10" />
 
+  <h2>type de réseaux utilisé principalement :</h2>
+    <label>
+        <input type="checkbox" id="4G" name="4G">
+        4G
+    </label><br>
+    <label>
+        <input type="checkbox" id="5G" name="5G">
+        5G
+    </label><br>
+    <label>
+        <input type="checkbox" id="fibre" name="fibre">
+        fibre
+      </label><br>
+        <label>
+        <input type="checkbox" id="ADSL" name="ADSL">
+        ADSL
+    </label>
 
-    <label for="tps_tablette">temps passé sur votre tablette par jour (en heure): </label>
-  
-  <input
+
+<label for="stockage_cloud_tablette">stockage cloud utilisé (en Go) : </label>
+
+<input
   type="number"
-  id="tps_tablette"
-  name="name"
+  id="stockage_cloud_tablette"
+  name="stockage_cloud_tablette"
   required
-  minlength="1"
-  maxlength="8"
   size="10" />
+
+  <label for="duré_vie_tablette"> durée de vie moyenne de vos tablettes : </label>
+
+<input
+  type="number"
+  id="duré_vie_tablette"
+  name="duré_vie_tablette"
+  required
+  size="10" />
+
+    
+
+  <button onclick="traiterValeur()">Calculer</button>
+    <p id="affichage"></p>
   
 </body>
 
